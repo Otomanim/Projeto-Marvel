@@ -16,6 +16,8 @@ Build/
 Package.resolved
 .build/
 *.xcodeproj
+<<<<<<< HEAD
 
 # CocoaPods
 Pods/
+
