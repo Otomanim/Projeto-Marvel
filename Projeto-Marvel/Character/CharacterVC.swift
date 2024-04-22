@@ -2,8 +2,8 @@
 //  HomeVC.swift
 //  Projeto-Marvel
 //
-//  Created by Jhonathan Mattos on 28/08/21.
 //  Recreation by Evandro Minamoto on 30/10/21.
+//
 
 import Foundation
 import UIKit
@@ -21,6 +21,7 @@ class CharacterVC: UIViewController {
     override func viewDidLoad() {
         self.characterSearchBar.borderView(bordeColor: UIColor.init(cgColor: CGColor(red: 212, green: 208, blue: 207, alpha: 0.5)), borderWidth: 1)
         self.characterSearchBar.layer.cornerRadius = 10
+        self.characterSearchBar.searchTextField.textColor = .white
         
         
         self.homeTableView.delegate = self

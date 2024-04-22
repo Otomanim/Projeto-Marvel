@@ -22,9 +22,9 @@ class CharactesDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        setup(value: Character(id: id ?? 0, name: name ?? "", description: detail ?? "", thumbnail: ["" : ""] ?? ["" : ""]))
-//        self.nameCharacterLabel.text = name
-//        self.detailsLabel.text = detail
+        //setup(value: Character(id: id ?? 0, name: name ?? "", description: detail ?? "", thumbnail: ["" : ""] ?? ["" : ""]))
+        self.nameCharacterLabel.text = name
+        self.detailsLabel.text = detail
     }
     
 

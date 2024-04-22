@@ -10,10 +10,6 @@ import SDWebImage
 
 
 class CharacterTableViewCell:UITableViewCell {
-
-
-    
-    
     
     @IBOutlet weak var nameCharacterLabel: UILabel!
     @IBOutlet weak var characterImageView: UIImageView!
