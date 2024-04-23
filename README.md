@@ -100,4 +100,4 @@ For questions or issues, please create an [issue](https://github.com/Otomanim/Pr
 
 ---
 
-**© 2024 Your Name**
+**© 2021 Otomanim**
